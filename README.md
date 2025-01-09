@@ -7,7 +7,7 @@ BASIC DETAILS:
 
 Name: Dheeraj
 College: Sahyadri college of Engineering and management,Adyar,Mangalore-575007
-College mail: 
-Email ID: 
+College mail: dheeraj.ec23@sahyadri.edu.in
+Email ID: dheerajdheeru794@gmail.com
 GitHub profile:
 Linkedin profile:
