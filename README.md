@@ -15,5 +15,5 @@ Email ID: dheerajdheeru794@gmail.com
 
 GitHub profile:
 
-Linkedin profile:
+Linkedin profile:https://www.linkedin.com/in/dheeraj-57b2a932a
 
