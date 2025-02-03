@@ -1,4 +1,4 @@
-### **RISC-V Instruction Types and Fields**  
+RISC-V Instruction Types and Fields 
 
 RISC-V instructions are categorized into different types based on how their fields are structured. These fields include:  
 - **Opcode (7 bits)**: Identifies the type of instruction.  
