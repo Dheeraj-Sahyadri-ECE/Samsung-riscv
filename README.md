@@ -26,6 +26,12 @@ Task2
 ![task2](https://github.com/user-attachments/assets/e8f27413-0a29-4361-8ac8-8f0f8ee7928e)
 ![task2 1](https://github.com/user-attachments/assets/8fc79c92-794a-410d-8334-8e9c0fe25e78)
 Task3
+
+Task 3.1
+![IMG-20250217-WA0000](https://github.com/user-attachments/assets/8237dd2d-93cc-47c0-882b-429bc3596bf2)
+Task 3.2
+![image](https://github.com/user-attachments/assets/ee46fb9d-542d-4942-ba19-105bc91616da)
+
 ### **RISC-V Instruction Types and Fields**  
 
 RISC-V instructions are categorized into different types based on how their fields are structured. These fields include:  
@@ -175,3 +181,18 @@ Each instruction type is designed for specific operations.
 | **J-type** | Unconditional jumps | `jal ra, 1024` |
 
 Each type is designed for a specific set of operations, making RISC-V simple yet powerful.  
+Task 4
+Task 4.1
+![image](https://github.com/user-attachments/assets/b91dda78-084d-4b2e-9852-ae84f8eb11c3)
+Task 4.2
+![image](https://github.com/user-attachments/assets/8491a6d5-d95a-48ae-8496-395a17f2c503)
+Task 4.3
+![image](https://github.com/user-attachments/assets/79f7006f-c339-46da-a76b-2f27d798377a)
+Task 4.4
+![image](https://github.com/user-attachments/assets/4dabce91-918a-4fc8-8e38-4acc3cef9faf)
+Task 4.5
+![image](https://github.com/user-attachments/assets/6267f3ee-3573-48aa-9fee-fa4be09fd943)
+
+
+
+
