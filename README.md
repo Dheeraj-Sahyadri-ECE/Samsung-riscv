@@ -194,5 +194,55 @@ Task 4.5
 ![image](https://github.com/user-attachments/assets/6267f3ee-3573-48aa-9fee-fa4be09fd943)
 
 
+Task 5
+Automatic Light System using VSDSquadron Mini RISC-V Board, an IR sensor, and an LED for motion-based lighting control. The IR sensor detects movement, triggering the LED to blink three times before staying ON. If no motion is detected, the LED turns ON. This system is ideal for home automation, security, offering smart, hands- free lighting control.
+![canva](https://github.com/user-attachments/assets/96a4abf3-0aac-4a32-880a-421be0fc8649)
 
+Task 6
+Automatic Light System using VSDSquadron Mini RISC-V Board, an IR sensor, and an LED for motion-based lighting control. The IR sensor detects movement, triggering the LED to blink three times before staying ON. If no motion is detected, the LED turns ON. This system is ideal for home automation, security, offering smart, hands- free lighting control.
 
+#include <ch32v00x.h>
+#include <debug.h>
+
+void GPIO_Config(void)
+{
+    GPIO_InitTypeDef GPIO_InitStructure = {0};
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
+    
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
+    GPIO_Init(GPIOD, &GPIO_InitStructure);
+    
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_Init(GPIOD, &GPIO_InitStructure);
+}
+
+int main(void)
+{
+    uint8_t IR = 0;
+    uint8_t set = 1;
+    uint8_t reset = 0;
+    uint8_t a = 0;
+    
+    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+    SystemCoreClockUpdate();
+    Delay_Init();
+    GPIO_Config();
+    
+    while (1)
+    {
+        IR = GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_4);
+        if (IR == 1)
+        {
+            for (a = 0; a < 3; a++)
+            {
+                GPIO_WriteBit(GPIOD, GPIO_Pin_6, set);
+                Delay_Ms(200);
+                GPIO_WriteBit(GPIOD, GPIO_Pin_6, reset);
+                Delay_Ms(100);
+            }
+        }
+    }
+}
