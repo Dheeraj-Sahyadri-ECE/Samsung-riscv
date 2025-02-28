@@ -182,6 +182,7 @@ Each instruction type is designed for specific operations.
 
 Each type is designed for a specific set of operations, making RISC-V simple yet powerful.  
 Task 4
+
 Task 4.1
 ![image](https://github.com/user-attachments/assets/b91dda78-084d-4b2e-9852-ae84f8eb11c3)
 Task 4.2
@@ -195,6 +196,7 @@ Task 4.5
 
 
 Task 5
+
 Automatic Light System using VSDSquadron Mini RISC-V Board, an IR sensor, and an LED for motion-based lighting control. The IR sensor detects movement, triggering the LED to blink three times before staying ON. If no motion is detected, the LED turns ON. This system is ideal for home automation, security, offering smart, hands- free lighting control.
 ![canva](https://github.com/user-attachments/assets/96a4abf3-0aac-4a32-880a-421be0fc8649)
 
