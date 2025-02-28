@@ -253,3 +253,5 @@ Task 6
 
 
 Automatic Light System using VSDSquadron Mini RISC-V Board, an IR sensor, and an LED for motion-based lighting control. The IR sensor detects movement, triggering the LED to blink three times before staying ON. If no motion is detected, the LED turns ON. This system is ideal for home automation, security, offering smart, hands- free lighting control.
+
+https://drive.google.com/file/d/1XeyxHFDsJVCskxtsd1dUFd7X-Bw9_cwQ/view?usp=drivesdk
