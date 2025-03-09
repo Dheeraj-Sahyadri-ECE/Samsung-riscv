@@ -15,8 +15,7 @@ Email ID: dheerajdheeru794@gmail.com
 
 GitHub profile:https://github.com/Dheeraj-Sahyadri-ECE
 
-Linkedin profile:https://www.linkedin.com/in/dheeraj-57b2a932a
-
+Linkedin profile:https://www.linkedin.com/in/dheeraj-698a39351
 
 Task1
 ![Task1 2](https://github.com/user-attachments/assets/5729e9de-58cc-4941-9c31-15f6302ffb39)
